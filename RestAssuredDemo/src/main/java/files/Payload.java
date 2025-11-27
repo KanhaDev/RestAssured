@@ -51,4 +51,19 @@ public class Payload {
 				+ "\"author\":\"Kanha Verma\"\n"
 				+ "}";
 	}
+	
+	public static String createBugPayload() {
+		return "{\n"
+				+ "    \"fields\": {\n"
+				+ "       \"project\":\n"
+				+ "       {\n"
+				+ "          \"key\": \"SCRUM\"\n"
+				+ "       },\n"
+				+ "       \"summary\": \"Links is not working- Automation\",\n"
+				+ "       \"issuetype\": {\n"
+				+ "          \"name\": \"Bug\"\n"
+				+ "       }\n"
+				+ "   }\n"
+				+ "}";
+	}
 }

@@ -5,7 +5,6 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
 import static org.hamcrest.Matchers.*;
-import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
 import java.nio.file.Files;
