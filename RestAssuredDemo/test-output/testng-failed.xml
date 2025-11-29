@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.restassuredDemo.OAuthTest">
+      <class name="com.restassuredDemo.SpecBuilderTest">
         <methods>
-          <include name="serverAuthorization"/>
+          <include name="serializeTest"/>
         </methods>
-      </class> <!-- com.restassuredDemo.OAuthTest -->
+      </class> <!-- com.restassuredDemo.SpecBuilderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
