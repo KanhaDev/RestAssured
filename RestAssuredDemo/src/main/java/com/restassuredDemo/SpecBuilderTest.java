@@ -55,6 +55,7 @@ public class SpecBuilderTest {
 		Response res  =  given().spec(requestSpec).body(place).when().post("add/json")
 				.then().spec(responseSpec).extract().response();
 		
+		//Will convert the response to Pretty String
 		String resString = res.getBody().asPrettyString();
 		
 		System.out.println(resString);
